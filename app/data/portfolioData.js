@@ -221,12 +221,111 @@ export const portfolioItems = [
     category: "brand",
   },
 ];
+export const thumbnails = [
+  {
+    id: "1",
+    title: "Youtube Thumbnail",
+    description: "Modern brand identity for startup",
+    imageSrc: "/thumbnail/10.png",
+    category: "Youtube Thumbnail",
+  },
+  {
+    id: "2",
+    title: "Youtube Thumbnail",
+    description: "Modern brand identity for startup",
+    imageSrc: "/thumbnail/2.png",
+    category: "Youtube Thumbnail",
+  },
+  {
+    id: "3",
+    title: "Youtube Thumbnail",
+    description: "Modern brand identity for startup",
+    imageSrc: "/thumbnail/4.png",
+    category: "Youtube Thumbnail",
+  },
+];
+export const YoutubeThumnails =[
+//   {
+//     id: "4",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/4.png",
+//     category: "Youtube Thumbnail",
+//   },
+//   {
+//     id: "5",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/5.png",
+//     category: "Youtube Thumbnail",
+//   },
+//     {
+//     id: "6",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/6.jpg",
+//     category: "Youtube Thumbnail",
+//   },  {
+//     id: "7",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/7.jpg",
+//     category: "Youtube Thumbnail",
+//   },  {
+//     id: "8",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/8.jpg",
+//     category: "Youtube Thumbnail",
+//   },  {
+//     id: "9",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/9.jpg",
+//     category: "Youtube Thumbnail",
+//   },  {
+//     id: "10",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/10.png",
+//     category: "Youtube Thumbnail",
+//   },  {
+//     id: "11",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/11.png",
+//     category: "Youtube Thumbnail",
+//   },  {
+//     id: "12",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/12.png",
+//     category: "Youtube Thumbnail",
+//   },  {
+//     id: "13",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/13.png",
+//     category: "Youtube Thumbnail",
+//   },  {
+//     id: "14",
+//     title: "Youtube Thumbnail",
+//     description: "Modern brand identity for startup",
+//     imageSrc: "/thumbnail/14.png",
+//     category: "Youtube Thumbnail",
+//   },
+
+]
+
+
 
 export const categories = [
   { key: "logo", title: "Logo Designs", gridCols: "xl:grid-cols-4" },
   { key: "poster", title: "Poster Designs", gridCols: "lg:grid-cols-3" },
   { key: "banner", title: "Banner Designs", gridCols: "md:grid-cols-2" },
   { key: "creative", title: "Creative Designs", gridCols: "lg:grid-cols-3" },
+  { key: "thumbnail", title: "YouTube Thumbnails", gridCols: "md:grid-cols-2" }, // new category
+
   {
     key: "brand",
     title: "Brand Identity Projects",
