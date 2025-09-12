@@ -34,7 +34,7 @@ export default function Hero({ onImageClick }) {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4 leading-tight">
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
               Muhammad Noman
             </span>
@@ -77,7 +77,7 @@ export default function Hero({ onImageClick }) {
               className="group bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 rounded-full text-base font-semibold hover:from-blue-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
             >
               <Users className="w-4 h-4 group-hover:scale-110 transition-transform" />
-              Let's Work Together
+              Let&apos;s Work Together
             </button>
             <button
               onClick={() => scrollToSection("portfolio")}
