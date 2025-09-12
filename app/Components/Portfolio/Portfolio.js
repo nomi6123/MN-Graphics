@@ -36,7 +36,7 @@ export default function Portfolio({ onImageClick }) {
                     onClick={() => onImageClick(item.imageSrc)}
                   >
                     {/* Image Box */}
-                    <div className="relative w-full h-64">
+                    <div className="relative w-full h-[300px]">
                       <Image
                         src={item.imageSrc}
                         alt={item.title}
