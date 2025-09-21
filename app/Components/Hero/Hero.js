@@ -4,6 +4,7 @@
 import Image from "next/image";
 import {  Play, Star, Users, Zap } from "lucide-react";
 import { thumbnails } from "../../data/portfolioData";
+import Link from "next/link";
 
 export default function Hero({ onImageClick }) {
   const scrollToSection = (sectionId) => {
@@ -25,10 +26,10 @@ export default function Hero({ onImageClick }) {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-400/10 rounded-full blur-3xl animate-pulse"></div>
       </div>
 
-      <div className="relative z-10 container mx-auto px-6 pt-24 pb-20">
+      <div className="relative z-10  container mx-auto px-6 pt-24 pb-20">
         {/* Hero Content */}
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-blue-500/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-blue-200">
+        <div className="text-center bg-white rounded-3xl border border-gray-300 shadow-2xl shadow-gray-400 pb-1 mb-10">
+          <div className="inline-flex items-center gap-2 bg-blue-500/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6 mt-2 border border-blue-200">
             <Star className="w-4 h-4 text-yellow-500" />
             <span className="text-gray-700 text-sm font-medium">Premium Designer</span>
           </div>
@@ -126,8 +127,19 @@ export default function Hero({ onImageClick }) {
             ))}
           </div>
         </div>
+{/* creative design */}
 
-    
+ <div className="flex items-center gap-6 cursor-pointer">
+                <Link href="/CreativeDesign" legacyBehavior>
+                  <a className="text-sm font-semibold text-Black hover:text-fuchsia-400 transition-colors duration-300 relative group hover:scale-105">
+                    Creative Design
+                    <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-fuchsia-400 to-cyan-400 group-hover:w-full transition-all duration-300"></div>
+                  </a>
+                </Link>
+                
+             
+            
+              </div>
       </div>
     </section>
   );
